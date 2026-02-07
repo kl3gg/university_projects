@@ -6,7 +6,7 @@
  * 
  * @file   Oblig_1.cpp
  * @author Kristina Jonsen
- * @date   07.02.2026
+ * @date   29.01.2026
  *
  */
 
