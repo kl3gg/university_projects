@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        if (isNaN(antallSider) || antallSider < 2) {
-            feilmelding.textContent = "En terning må minst ha to sider";
-            return;
+       if (isNaN(antallSider) || antallSider < 2 || antallSider > 100) {
+                feilmelding.textContent = "En terning må ha mellom 2 og 100 sider";
+                return;
         }
         let sum = 0;
 
